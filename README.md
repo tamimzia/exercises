@@ -1,0 +1,2 @@
+# exercises
+exercises shell script
