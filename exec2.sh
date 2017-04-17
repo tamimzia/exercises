@@ -9,4 +9,4 @@ echo "we  try to execute a command that does not exist, this will show a error m
 command-not-found
 
 echo "we  try to execute a command that does not exist, but redirect error message -->"
-command-not-found &2> /dev/null
+command-not-found 2&> /dev/null
