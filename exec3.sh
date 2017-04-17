@@ -6,9 +6,9 @@ clear
 set -e
 
 expr 1 + 1
-echo "last expression sent following exit code:"
-echo $?
+echo "last expression sent following exit code: $?" 
 
 echo  "tyring to delete file file-has-not-been-created.txt"
-echo "last expression sent following exit code:"
-echo $?
+rm file-has-not-been-created.txt
+
+echo "last expression sent following exit code: $?"
