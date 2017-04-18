@@ -30,9 +30,11 @@ http://www.tutorialspoint.com/unix/unix-string-operators.htm
 Array displaying wrong names and wrong number of array elemts could be corrected with following code
 
 -get length of the array
+
 ArrayLenght=${#PLAYERS[@]}
 
 -Loop to display all player names
+
 for (( i=0; i<$ArrayLenght; i++ ));
 do
   echo "Hello ${PLAYERS[$i]}. Good Luck for the football game!"
