@@ -23,3 +23,16 @@ str	Checks if str is not the empty string; if it is empty, then it returns false
 
 See also: 
 http://www.tutorialspoint.com/unix/unix-string-operators.htm
+
+Exercise 7:
+
+Array displaying wrong names and wrong number of array elemts could be corrected with following code
+
+# get length of the array
+ArrayLenght=${#PLAYERS[@]}
+
+# Loop to display all player names
+for (( i=0; i<$ArrayLenght; i++ ));
+do
+  echo "Hello ${PLAYERS[$i]}. Good Luck for the football game!"
+done
