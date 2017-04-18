@@ -4,7 +4,7 @@
 ### Exercise 1
 
 STARTOFSCRIPT=` date +'%Y-%m-%d %H:%M:%S'` 
-MYUSERNAME="Tamin Zia"
+MYUSERNAME="Tamim Zia"
 MYPASSWORD="Apassword123"
 clear
 echo "############################################"
